@@ -1,0 +1,30 @@
+{
+  "name": "telegram-ai-girlfriend",
+  "version": "1.0.0",
+  "description": "텔레그램 AI 여자친구 챗봇",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed for serverless functions'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "openai": "^4.20.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "chatbot",
+    "ai",
+    "openai",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
