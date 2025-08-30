@@ -9,8 +9,9 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "openai": "^4.20.1",
-    "node-telegram-bot-api": "^0.64.0"
+    "@supabase/supabase-js": "^2.56.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.20.1"
   },
   "devDependencies": {
     "@vercel/node": "^3.0.12"
